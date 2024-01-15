@@ -1,0 +1,27 @@
+{
+    "name": "jazzlevit/notes",
+    "description": "Educto notes service",
+    "license": "MIT",
+    "require": {
+        "jazzlevit/orchestration": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jazzlevit\\Notes\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EductoAuthServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "jazzlevit",
+            "email": "jazzlevit@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

@@ -3,7 +3,7 @@
     "description": "Educto notes service",
     "license": "MIT",
     "require": {
-        "jazzlevit/orchestration": "1.*"
+        "jazzlevit/orchestrator": "1.*"
     },
     "autoload": {
         "psr-4": {
